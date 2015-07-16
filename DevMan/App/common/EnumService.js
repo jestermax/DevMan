@@ -1,11 +1,12 @@
 ﻿// General Enums for the project
 
 
-angular.module('DevMan')
+angular.module('DevMan.Services')
 
 .service('EnumProvider', function () {
     this.GameStates = {
-            Main: 'Main'
-        };    
+        Main: 'Main',
+        Welcome: 'Welcome'
+    };    
 })
 

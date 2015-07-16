@@ -6,6 +6,7 @@ describe("Main App", function () {
     var $controller;
 
     beforeEach(module('DevMan'));
+    beforeEach(module('DevMan.Services'));
     beforeEach(inject(function ($rootScope) {
         scope = $rootScope.$new();
 

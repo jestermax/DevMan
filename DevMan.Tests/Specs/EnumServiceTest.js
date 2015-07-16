@@ -4,7 +4,7 @@
 describe("Enum Service", function () {
     var enumService = null;
 
-    beforeEach(module('DevMan'));
+    beforeEach(module('DevMan.Services'));
     beforeEach(inject(function (_EnumProvider_) {
         enumService = _EnumProvider_;
     }));

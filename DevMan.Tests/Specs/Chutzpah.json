@@ -3,6 +3,7 @@
         //{ "Path": "../../DevMan/Scripts", "Includes": [ "*.js" ] },
         { "Path": "../Scripts/angular.js"},
         { "Path": "../Scripts/angular-mocks.js" },
+        { "Path": "../Scripts/angular-ui/ui-bootstrap.js" },
         { "Path": "../../DevMan/App", "Includes": [ "*.js" ] },
         { "Path": "../../DevMan/App/common", "Includes": [ "*.js" ] }
     ]
