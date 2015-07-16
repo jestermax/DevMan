@@ -1,6 +1,9 @@
 ﻿{
     "References": [
-        { "Path": "../../DevMan/Scripts", "Includes": [ "*.js" ] },
-        { "Path": "../../DevMan/Scripts/App", "Includes": ["*.js"] }
+        //{ "Path": "../../DevMan/Scripts", "Includes": [ "*.js" ] },
+        { "Path": "../Scripts/angular.js"},
+        { "Path": "../Scripts/angular-mocks.js" },
+        { "Path": "../../DevMan/App", "Includes": [ "*.js" ] },
+        { "Path": "../../DevMan/App/common", "Includes": [ "*.js" ] }
     ]
 }
