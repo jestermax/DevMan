@@ -1,0 +1,5 @@
+﻿{
+    "References": [
+        { "Path": "../../DevMan/Scripts", "Includes": ["*.js"] }
+    ]
+}
