@@ -106,12 +106,18 @@
   <ItemGroup>
     <Content Include="App.config" />
     <Content Include="css\jasmine.css" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\jasmine-html.js" />
     <Content Include="Scripts\jasmine.js" />
     <Content Include="Specs\BasicTest.js" />
+    <Content Include="Specs\EnumServiceTest.js" />
+    <Content Include="Specs\MainAppTest.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Scripts\angular.min.js.map" />
     <None Include="Specs\chutzpah.json" />
   </ItemGroup>
   <ItemGroup>

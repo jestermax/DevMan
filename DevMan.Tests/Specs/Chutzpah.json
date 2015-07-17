@@ -5,6 +5,8 @@
         { "Path": "../Scripts/angular-mocks.js" },
         { "Path": "../Scripts/angular-ui/ui-bootstrap.js" },
         { "Path": "../../DevMan/App", "Includes": [ "*.js" ] },
+        { "Path": "../../DevMan/App/welcome", "Includes": [ "*.js" ] },
+        { "Path": "../../DevMan/App/main", "Includes": [ "*.js" ] },
         { "Path": "../../DevMan/App/common", "Includes": [ "*.js" ] }
     ]
 }

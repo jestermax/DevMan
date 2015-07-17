@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="DevMan">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Development Manager</title>
+</head>
+<body ng-controller="MainCtrl">
+    <div class="container">
+        <h1> Title: {{CurrentProfileId}} </h1>
+               
+        <div ng-controller="MainPageControls">
+            <button type="button" class="btn btn-primary" ng-model="singleModel" ng-click="buttonClick()">
+                {{ singleModel }}
+            </button>
+        </div>
+
+        <hr />
+        <div ng-include src="template"></div>
+    </div>
+
+
+    
+    <!-- 3rd Party Libraries -->
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="../../Scripts/angular-ui/ui-bootstrap.js"></script>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+
+    <!-- App Code -->
+    <script src="../../App/App.js"></script>
+    <script src="../../App/main/MainPageControls.js"></script>
+    <script src="../../App/common/EnumService.js"></script>
+    <script src="../../App/welcome/WelcomeApp.js"></script>
+    <script src="../../App/common/Storage.js"></script>
+    <link href="App.css" rel="stylesheet" />
+    
+</body>
+</html>
